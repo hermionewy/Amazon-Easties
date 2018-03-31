@@ -1,0 +1,44 @@
+#circle-graphic{
+    width: 100%;
+    min-height: 100vh;
+}
+.main-container .row{
+    position: relative;
+}
+
+.graphic-wrapper{
+    position: relative;
+    top: 0px;
+}
+.circle-graphic{
+
+}
+.trigger{
+    margin: 300px 0px 300px 0px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 15px;
+}
+
+.fixed{
+    position: fixed;
+    top: 0px;
+}
+.relativeTop{
+    position: relative;
+    top: 0px
+}
+.hispanic{
+    color: #4281A4
+}
+.white{
+    color: #FE938C
+}
+.black{
+    color: #9CAFB7
+}
+.asian{
+    color:#E6B89C
+}
+.other{
+    color: #EAD2AC
+}
