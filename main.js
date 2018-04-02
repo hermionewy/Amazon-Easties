@@ -54,6 +54,15 @@ var scenes = triggerEls.map(function(el) {
     scene.addTo(controller);
 });
 
+var graphicScene = new ScrollMagic.Scene({
+    triggerElement: '#circle-graphic',
+    triggerHook: '1',
+}).on('enter', function () {
+    graphicPlot.classed('fixed', true);
+});
+graphicScene.addTo(controller);
+
+
 function graphicUpdate(step) {
 
     if(step==0){
